@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Kalam&family=Mogra&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    padding-bottom: 8px;
+}
+
+h1 {
+    color: rgb(19, 255, 0);
+    font-size: 50px;
+}
+
+body {
+    background-color: rgb(15, 15, 15);
+    font-family: 'Mogra', cursive;
+}
+
+header {
+    background-color: rgb(15, 15, 15);
+    color: aliceblue;
+    padding: 16px 0;
+}
+
+header hr {
+    color: rgb(25, 25, 25);
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+header nav li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    padding-top: 225px;
+    padding-right: 100px;
+}
+
+input,
+textarea,
+button {
+    font-size: medium;
+    padding: 12px 0;
+    margin-bottom: 10px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    border: solid rgb(19, 255, 0);
+    background-color: rgb(25, 25, 25);
+    color: rgb(19, 255, 0);
+}
+
+input,
+textarea:focus {
+    outline: rgb(19, 255, 0);
+}
+
+textarea {
+    padding-bottom: 90px;
+    resize: none;
+}
+
+button:hover {
+    background-color: rgb(15, 15, 15);
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+

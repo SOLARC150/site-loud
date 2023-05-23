@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Kalam&family=Mogra&display=swap');
+@import url(//db.onlinewebfonts.com/c/5448e532a6df5b5dc0f331bab0f7508f?family=TussilagoW05-Book);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    padding-bottom: 8px;
+}
+
+h1 {
+    color: rgb(19, 255, 0);
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+body {
+    background-color: rgb(15, 15, 15);
+    font-family: 'Mogra', cursive;
+}
+
+header {
+    background-color: rgb(15, 15, 15);
+    color: aliceblue;
+    padding: 16px 0;
+}
+
+header hr {
+    color: rgb(25, 25, 25);
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+header nav li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    background-color: rgba(15, 15, 15);
+    color: aliceblue;
+    padding-top: 50px;
+}
+
+section .container p {
+    padding-bottom: 16px;
+}
+
+section .container img {
+    width: 500px;
+    height: 300px;
+    padding: 16px;
+}
+
+.container article {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container article h3 {
+    padding-top: 40px;
+}
+
+section article {
+    display: flex;
+}
+
+article button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background-color: rgb(19, 255, 0);
+    border: solid rgb(19, 255, 0);
+    cursor: pointer;
+}
+
+article button:hover {
+    background-color: rgb(15, 15, 15);
+
+}
+
+article button a {
+    color: rgb(15, 15, 15);
+    font-weight: bolder;
+    padding: 10px;
+}
+
+article button a:hover {
+    color: rgb(19, 255, 0);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
